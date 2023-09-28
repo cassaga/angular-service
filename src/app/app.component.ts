@@ -14,8 +14,8 @@ export class AppComponent {
 
 
   ngOnInit(): void {
-    this.nasaService.getImageOfTheDay().subscribe(url => {
-      this.imgOfTheDay = url;
+      this.nasaService.getImageOfTheDay().subscribe(api => {
+      this.imgOfTheDay = api;
     });
   }
 
