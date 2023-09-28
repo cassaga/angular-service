@@ -8,7 +8,7 @@ import {NasaService} from "./nasa-service";
 })
 export class AppComponent {
   title = 'angular-service';
-  public imgOfTheDay? : string;
+  public imgOfTheDay? : any;
 
   constructor(private nasaService: NasaService) { }
 
