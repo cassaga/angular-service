@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CocktailService } from '../cocktail.service';
 import { Cocktail } from '../cocktail.model';
 
+
 @Component({
   selector: 'app-cocktail-list',
   templateUrl: './cocktail-list.component.html',
@@ -13,6 +14,10 @@ export class CocktailListComponent implements OnInit {
   constructor(private cocktailService: CocktailService) { }
 
   ngOnInit(): void {
-    this.cocktails = this.cocktailService.getCocktails();
-  }
-}
+    this.cocktailService.getCocktails().subscribe(cocktailsFromJsonFile => {
+      this.cocktails = cocktailsFromJsonFile;
+  });
+
+
+}}
+

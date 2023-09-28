@@ -1,0 +1,17 @@
+[
+  {
+    "nom": "Sex on the beach",
+    "prix": 10,
+    "image": "https://www.destinationcocktails.fr/wp-content/uploads/2019/11/cocktail-sex-on-the-beach-2.jpg"
+  },
+  {
+    "nom": "Marguarita",
+    "prix": 13,
+    "image": "https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/recettes-de-cuisine/margarita-2037408/9397186-12-fre-FR/Margarita.jpg"
+  },
+  {
+    "nom": "Martini",
+    "prix": 8,
+    "image": "https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/recettes-de-cuisine/martini-dry-2068016/21696942-3-fre-FR/Cocktail-Martini-dry.jpg"
+  }
+]
